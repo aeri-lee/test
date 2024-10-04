@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+#wrap{
+width:90%;
+height:500px;
+margin:0 auto;
+background:#e65d5d;
+border:4px solid #000;
+}
