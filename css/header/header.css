@@ -27,3 +27,14 @@ z-index: 9999
 header li {
   font-size: 10px;
 }
+
+header .menu {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: -100vw;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 9990;
+}
