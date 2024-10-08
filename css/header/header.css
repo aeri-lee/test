@@ -42,7 +42,7 @@ header .container > .left img {
 }
 
 header .container > .right {
-  display: flex;
+  float: right;
   align-items: center;
   display: inline-block;
 }
