@@ -27,11 +27,13 @@ z-index: 9999
 header .container > .left {
   display: flex;
   padding-left: 10px;
+  display: inline-block;
 }
 
 header .container > .right {
   display: flex;
   align-items: center;
+  display: inline-block;
 }
 
 header .container > .right > ul li::before {
