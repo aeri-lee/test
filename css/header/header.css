@@ -62,7 +62,7 @@ header .container > .right > ul li::before {
 }
 
 header ul {
-   margin: 10px 10px 10px 10px;
+   
    display : flex;
    list-style-type: none;
 }
