@@ -30,6 +30,17 @@ header .container > .left {
   display: inline-block;
 }
 
+header .container > .left img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  height: 37px;
+  filter: invert(100%);
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
 header .container > .right {
   display: flex;
   align-items: center;
