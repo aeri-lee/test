@@ -38,9 +38,15 @@ header .container > .right > ul li::before {
   transition: 150ms ease;
 }
 
+header ul {
+   margin: 10px 10px 10px 10px;
+   display : flex;
+   list-style-type: none;
+}
+
 header li {
   font-size: 20px;
-  float: right;
+ 
 }
 
 header .menu {
