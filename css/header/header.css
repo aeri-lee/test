@@ -24,6 +24,11 @@ font-weight: 500;
 z-index: 9999
 }
 
+header .Header_container > .right {
+  display: flex;
+  align-items: center;
+}
+
 header .container > .right > ul li::before {
   position: absolute;
   content: "";
