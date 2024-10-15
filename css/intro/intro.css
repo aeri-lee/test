@@ -9,7 +9,7 @@
   width: 100%;
   top: 37vh;
   z-index: 1000;
-  opacity: 0;
+ //opacity: 0;
   animation: typo_1 1000ms ease;
   animation-fill-mode: forwards;
   pointer-events: none;
