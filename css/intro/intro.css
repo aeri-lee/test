@@ -1,1 +1,47 @@
-
+#Intro {
+  height: 100vh;
+  background: linear-gradient(-45deg, #000000, rgb(61, 22, 41), rgb(36, 20, 63), #68648b);
+  background-size: 400% 400%;
+  animation: gradient 14s ease-in-out infinite;
+}
+#Intro #typo_1 {
+  position: absolute;
+  width: 100%;
+  top: 37vh;
+  z-index: 1000;
+  opacity: 0;
+  animation: typo_1 1000ms ease;
+  animation-fill-mode: forwards;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+#Intro #typo_1 h1 {
+  line-height: 9rem;
+  color: white;
+  font-size: 9.1rem;
+  font-weight: 900;
+  text-align: center;
+  white-space: nowrap;
+  transition: 300ms ease;
+}
+#Intro #typo_1 h2 {
+  color: rgb(255, 255, 130);
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1.2vw;
+  animation: typo_1_1 900ms 800ms;
+  animation-fill-mode: backwards;
+  mix-blend-mode: difference;
+  transition: 300ms ease;
+}
+#Intro .scroll {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  bottom: 80px;
+  transform: translateX(-50%);
+  align-items: center;
+  z-index: 1000;
+}
