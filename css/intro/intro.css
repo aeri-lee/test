@@ -7,7 +7,7 @@
 #Intro #typo_1 {
   position: absolute;
   width: 100%;
-  top: 37vh;
+  top: 15vh;
   z-index: 1000;
  //opacity: 0;
   animation: typo_1 1000ms ease;
@@ -18,7 +18,7 @@
 #Intro #typo_1 h1 {
   line-height: 9rem;
   color: white;
-  font-size: 9.1rem;
+  font-size: 8.1rem;
   font-weight: 900;
   text-align: center;
   white-space: nowrap;
